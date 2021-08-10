@@ -8,7 +8,7 @@ public class CarDesign {
 	static int Wheels = 4;
 
 	public static void main(String[] args) {
-		// Practical Example of Statis variable
+		// Practical Example of Static variable
 		// Since wheels is Common Entity we have made it as Static, so that it is not
 		// intialized in object everytime
 		// iF MAIN METHOD IS IN DIFFERENT Class Wheels variable has to be called by

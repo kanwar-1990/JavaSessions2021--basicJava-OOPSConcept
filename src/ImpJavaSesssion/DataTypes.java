@@ -6,7 +6,7 @@ public class DataTypes {
 
 		/*
 		 * primitive data type will take the memory directly from java memory , we wont
-		 * create an object to take the smae Premitive DataTypes Interger
+		 * create an object to take the same Premitive DataTypes Interger
 		 * family---Byte,short,long,int floating family --- float,double Character
 		 * Booelan Family--Either true or false
 		 */

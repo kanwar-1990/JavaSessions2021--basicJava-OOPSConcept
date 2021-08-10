@@ -1,0 +1,9 @@
+global variables ---can be used with in the same class and can be declared
+class is an templates where objects are created
+after JDK 1.7 for int,char and String , switch case statment is allowed
+final keyword cannot be changed, And cannot be inherited in child class
+
+finalize concept-- before garbage collector comes and clears the variables ,which are not being refered,or have null references, object created and no reference variable is pointing to it
+gc will call finalize() method before cleaning it .Basically to do clean up activity
+
+super keyword is used to call or inherit the property of the super class without creating an object of super class

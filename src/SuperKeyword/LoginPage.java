@@ -13,6 +13,7 @@ public class LoginPage extends Page {
 	public void loadingtime() {
 		System.out.println("LoginPage loadtime " + Loadtime);
 		System.out.println("ParentPage loadtime " + super.Loadtime);
+		System.out.println("time"+super.time);
 
 		// super keyword is used inherit the property of parent class without creating
 		// the object

@@ -1,8 +1,8 @@
-package ImpJavaSesssion;
+ package ImpJavaSesssion;
 
-public class Login {
+ public class Login {
 
-	String UserName;
+	String UserName; //class level variable declaration --global variables
 	String password;
 	String title;
 	String url;
@@ -29,6 +29,7 @@ public class Login {
 		AmazonLogin.url = "http://www.amazon.in";
 
 		new Login();/// Will be distoryed by garbage collector
+		System.gc(); // for garbage collection by Manaully-Jvm
 		
 	}
 

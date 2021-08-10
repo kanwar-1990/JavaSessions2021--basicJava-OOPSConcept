@@ -43,6 +43,14 @@ public class HashMap_HashTableConcept {
 		
 		int nbThreads =  Thread.getAllStackTraces().keySet().size();
 		System.out.println("Number of threads is "+nbThreads);
+		
+		//  if you want all threads currently executing, you can do that :
+		
+		int nbRunning = 0;
+		for (Thread t : Thread.getAllStackTraces().keySet()) {
+		    if (t.getState()==Thread.State.RUNNABLE) nbRunning++;
+		}
+		System.out.println(nbRunning);
 		/*
 	 HashMap and Hashtable
 	 -->Hashtable can be considered in place of HashMap

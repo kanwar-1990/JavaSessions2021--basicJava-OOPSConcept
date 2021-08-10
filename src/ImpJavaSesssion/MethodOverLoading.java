@@ -12,7 +12,7 @@ public class MethodOverLoading {
 		 * methodoverloading can only happen in the same class with different input and
 		 * different sequence and with the same name as method, is known as method
 		 * overloading ex: vending Machine,UserRegistration reason for method
-		 * overloading as per customer : visisbilty
+		 * overloading as per customer : visibilty
 		 */
 
 		MethodOverLoading m1 = new MethodOverLoading();

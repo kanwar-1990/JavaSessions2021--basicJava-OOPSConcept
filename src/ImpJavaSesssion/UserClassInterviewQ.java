@@ -27,21 +27,21 @@ public class UserClassInterviewQ {
 		u3.Age = 1;
 		u3.City = "assam";
 
-		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);
-		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);
-		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);
+		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);//kanwar 25 bangalore
+		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);//kajol 222 silchar
+		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);// leo 1 assam
 
 		u1 = u2;
 
-		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);
-		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);
-		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);
+		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);////kanwar 25 bangalore
+		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);////kanwar 25 bangalore
+		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);// leo 1 assam
 
 		u2 = u3;
 
-		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);
-		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);
-		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);
+		System.out.println(u1.UserName + " " + u1.Age + " " + u1.City);////kanwar 25 bangalore
+		System.out.println(u2.UserName + " " + u2.Age + " " + u2.City);////kanwar 25 bangalore
+		System.out.println(u3.UserName + " " + u3.Age + " " + u3.City);////kanwar 25 bangalore
 
 		u3 = u1;
 

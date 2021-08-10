@@ -10,6 +10,7 @@ public class Page {
 	
 	
 	int Loadtime=20;
+	int time=60;
 	
 	public void pagetitle()
 

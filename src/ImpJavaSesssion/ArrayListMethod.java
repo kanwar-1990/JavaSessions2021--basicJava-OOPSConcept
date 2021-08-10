@@ -27,6 +27,9 @@ public class ArrayListMethod {
 		ar.add("B");
 		ar.add("C");
 		ar.add("D");
+		ar.add("X");
+
+		ar.stream().forEach(ele->System.out.println(ele));
 
 		// We Can also clone this or create an duplicate ArrayList
 

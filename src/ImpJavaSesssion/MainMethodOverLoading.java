@@ -14,7 +14,6 @@ public class MainMethodOverLoading {
 	}
 
 	public static void main() {
-		// TODO Auto-generated method stub
 
 		System.out.println("main  Can be Overloaded by adding different parameter");
 

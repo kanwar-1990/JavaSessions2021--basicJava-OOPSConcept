@@ -4,14 +4,14 @@ public class TestCar {
 
 	public static void main(String[] args) {
 
-		BMW B1 = new BMW();// After creating an object i am called BMW ,SINCE Bmw is a child class of car,
+		BMW B1 = new BMW();// After creating an object i have called BMW ,SINCE Bmw is a child class of car,
 							// i will be able to use the methods in Car
 		B1.start();
 		B1.refueling();
 		B1.Stop();
 		System.out.println(B1.i);
 		B1.Autoparking();
-		//B1.SunRoofing(); --Static method cannot be over ridden hence not calling them
+		//B1.SunRoofing(); --Static method cannot be over Ridden hence not calling them
 		B1.Engine();//GrandFather Class
 		B1.start("BOSCH");
 		B1.start("Radio",92);
