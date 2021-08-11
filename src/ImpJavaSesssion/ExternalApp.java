@@ -11,9 +11,15 @@ public class ExternalApp {
 
 		// r.exec("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 
-		String[] s1 = new String[] { "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-				"https://app.box.com/notes/558765504000" };
-		r.exec(s1);
+//		String[] s1 = new String[] { "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+//				"https://app.box.com/notes/558765504000" };
+//	
+		
+		String[] s2 = new String[] { "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+		"http://www.flipkart.com" };
+		
+		
+		r.exec(s2);
 
 	}
 
