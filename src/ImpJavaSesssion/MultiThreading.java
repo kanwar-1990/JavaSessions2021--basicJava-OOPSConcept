@@ -29,7 +29,9 @@ class PizzaHut extends Thread {
 
 public class MultiThreading {
 
-	public static void main(String[] args) // Main in one Thread, Which is provided for executiom
+	public static void main(String[] args) // Main in one Thread, Which is provided for execution
+
+	// Acheived multiThreading in this
 
 	{
 		Dominos d1 = new Dominos();
