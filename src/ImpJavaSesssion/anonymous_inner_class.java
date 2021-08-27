@@ -41,7 +41,7 @@ DemoTest d1=new DemoTest() {
 // To overcome anonymous inner class ,and to have an boiler code avoided we can use a lamda expression
 
 
-		DemoTest d1=()->System.out.println("I this is an annonimus inner class");	
+		DemoTest d1=()->System.out.println("I this is an annonimus inner class");	//
 	DemoTest.showbizzzzzzzzzz();
 
 
@@ -51,9 +51,8 @@ d1.show();
 d1.showbizzzz();	
 d1.showbizz();	
 	}
-	
 	static void showbizzzzzzzzzz()
 	{
-		System.out.println("hello");
+		System.out.println("hello ");
 	}	
 }
