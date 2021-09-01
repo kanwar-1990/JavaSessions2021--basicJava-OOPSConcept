@@ -1,6 +1,7 @@
 package CodingBat;
 
 public class CodingBatStringPractice10 {
+	
 	public static void main(String[] a) {
 
 	}
@@ -77,7 +78,7 @@ public class CodingBatStringPractice10 {
 		} else if (nums[0] + nums[1] >= 2) {
 			return nums[0] + nums[1];
 		}
-		return 0;	
+		return 0;
 	}
 
 }
