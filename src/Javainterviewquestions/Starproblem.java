@@ -2,20 +2,18 @@ package Javainterviewquestions;
 
 public class Starproblem {
 /*
-code 1
+             code 1
 ****
 ****
 ****	
 ****	
 
-code 2
+             code 2
 *
 **
 ***
 ****
 *****	
-	
-	
 	
 */	
 	
