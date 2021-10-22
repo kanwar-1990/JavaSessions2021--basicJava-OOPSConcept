@@ -6,7 +6,7 @@ public class StaticArrayConcept {
 
 		/*
 		 * two type of Array static and dynamic Array Array index outofbound, if i add a
-		 * value of index 4, as the size is only 4 negitive index ---is not allowed in
+		 * value of index 4, as the size is only 4 negative index ---is not allowed in
 		 * Java for similar data type to be added we can use Array Ex--Dynamic
 		 * Array---Ecom Comp Amazon---assume that, in jan 5000 order, feb 100 order if
 		 * we use static array, by giving the size as 5000, the prob will be that what

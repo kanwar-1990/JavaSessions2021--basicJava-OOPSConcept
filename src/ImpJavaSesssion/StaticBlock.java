@@ -2,10 +2,9 @@ package ImpJavaSesssion;
 
 public class StaticBlock {
 
-	static  {
+	static {
 
 		System.out.println("Hello i am a static block and i run once the class is loaded and before main method 1");
-
 	}
 	{
 		System.out.println("i am unique  "); // this wont get executed -- we need to create an object

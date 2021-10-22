@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-public class TryCatchBloack {
+public class TryCatchBlock {
 
 	String Name;
 
@@ -15,7 +15,7 @@ public class TryCatchBloack {
 			// block
 			// and once the error is thrown catch block will print it
 			// And u can move to the next code
-			TryCatchBloack TC = new TryCatchBloack();
+			TryCatchBlock TC = new TryCatchBlock();
 			// TC = null;
 			TC.Name = "tom";
 			int i = 9 / 0;

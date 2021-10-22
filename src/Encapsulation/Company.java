@@ -16,7 +16,7 @@ public class Company {
 
 	// Access modifer ---private can we called with in the class ,however to access
 	// outside the class maybe from a different classs
-	// a public layer needs to be used ---which encapsulation ----data hiding or
+	// a public layer needs to be used ---which is encapsulation ----data hiding or
 	// data security
 
 public static void main(String[] args) {

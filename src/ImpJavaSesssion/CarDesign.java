@@ -15,8 +15,7 @@ public class CarDesign {
 		// Class Name.wheels
 		CarDesign c = new CarDesign();
 
-		c.CarName = "BMW";
-		c.Color = "blue";
+ 		c.Color = "blue";
 		c.CarPrice = 70;
 
 		CarDesign c1 = new CarDesign();

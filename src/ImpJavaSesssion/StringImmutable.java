@@ -14,7 +14,7 @@ public class StringImmutable {
 
 		
 		//s1 = s1.concat(s2);
-		s1=s1.concat(s2);
+		System.out.println(s1=s1.concat(s2));
 		
 		System.out.println(s1 == s2);
 		System.out.println(s1.equals(s2));

@@ -18,7 +18,7 @@ public class Employee {
 
 		Employee Emp = new Employee(); // new Employee --Object-- created in Heap Memory--Emp is a reference variable
 										// and referening to the object
-		// as soon as the object gets created , the variables photcopy is given to it.
+		// as soon as the object gets created , the variables photocopy is given to it.
 
 		// it is Important that we call from the reference variable
 

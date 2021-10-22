@@ -1,6 +1,5 @@
 package ImpJavaSesssion;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
 
 public class StringManipulation {
 
