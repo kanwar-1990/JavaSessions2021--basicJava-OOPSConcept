@@ -9,7 +9,6 @@ public class PalindromeString {
 		palindromStringCheck("Selenium");
 		palindromStringCheck("Madam");
 
-		
 	}
 
 	public static void palindromStringCheck(String s1) {
