@@ -1,7 +1,11 @@
 package OOPS_Inheritance;
 
-public class Car extends Vehicles
-{
+public class Car extends Vehicles {
+
+	// marker interface ,doesnt have any method declaration,however can be used to
+	// provide permission
+	// ex==cloneable,serializable
+	// we can use instanceof keyword
 
 	public int i = 10;
 

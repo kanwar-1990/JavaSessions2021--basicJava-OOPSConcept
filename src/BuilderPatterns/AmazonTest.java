@@ -12,7 +12,10 @@ public class AmazonTest {
 		// this is how Dev build product in the backend
 
 		// its a violation of POM---BCZ assertion is not possible
-
+		StringBuffer st=new StringBuffer();
+         System.out.println(st.capacity())
+         ;
+         
 	}
 
 }
