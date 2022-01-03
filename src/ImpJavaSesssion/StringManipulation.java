@@ -1,7 +1,10 @@
 package ImpJavaSesssion;
 
+import java.util.Iterator;
 
 public class StringManipulation {
+
+	static String tryme = "your order number is 123464";
 
 	public static void main(String[] args) {
 
@@ -162,6 +165,35 @@ public class StringManipulation {
 																		// will start from them
 		System.out.println(s11.indexOf("o", s11.indexOf("o", 0) + 22));
 
+		String concentrate = "Hi;hello;google;uber";
+		String demo[] = concentrate.split(";");
+		System.out.println(demo[0]);
+		System.out.println(demo[1]);
+		System.out.println(demo[2]);
+		System.out.println(demo[3]);
+
+		for (String e : demo) {
+			System.out.println(e);
+		}
+
+		String get = "xXhelloXxXhixxXhappy";
+
+		String order[] = get.split("xX");
+
+		System.out.println(order[0].length());
+		for (int i = 0; i < order.length; i++) {
+			System.out.println(order[i]);
+		}
+		String password = "admin:admin123";
+		System.out.println(password.trim());
+		System.out.print(password.split(":")[0] + " ");
+
+		System.out.print(password.split(":")[1]);
+		System.out.println();
+
+		// String tryme="your order number is 123464";
+
+		System.out.println(tryme.substring(tryme.indexOf("is") + 3, tryme.length()));
 	}
 
 }

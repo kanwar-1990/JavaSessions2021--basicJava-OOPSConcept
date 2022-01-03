@@ -20,6 +20,8 @@ public class ExternalApp {
 		
 		
 		r.exec(s2);
+		
+		
 
 	}
 

@@ -23,6 +23,17 @@ interface DemoTest {
 
 public class anonymous_inner_class {
 	public static void main(String[] args) {
+		
+		DemoTest d2=new DemoTest() {
+
+			@Override
+			public void show() {
+
+				System.out.println("Hello");
+			}
+			
+		};
+		d2.showbizz();
 
 		/*
 		 * DemoTest d1=new DemoTest() {

@@ -1,6 +1,8 @@
 package ImpJavaSesssion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class ArrayAssignment {
 
@@ -10,6 +12,10 @@ public class ArrayAssignment {
 		// and print out the collection
 
 		ArrayList<String> Colour = new ArrayList<String>();
+		int a[] = new int[] { 2, 3, 4, 6, 7 };
+		for (int i : a) {
+			System.out.println(i);
+		}
 
 		Colour.add("White");
 		Colour.add("Yellow");
@@ -27,7 +33,7 @@ public class ArrayAssignment {
 		// 3. Write a Java program to retrieve an element (at a specified index) from a
 		// given array list.
 
-		ArrayList<String> FiLa = new ArrayList<String>();
+		ArrayList<Object> FiLa =new ArrayList<>();
 
 		FiLa.add("Hello");
 		FiLa.add("Hi");
