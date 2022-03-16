@@ -11,7 +11,7 @@ public class HashMap_HashTableConcept {
 		// HashMap<String, String> Elist = new HashMap<String, String>();
 		Map<String, String> Elist = new HashMap<String, String>();
 
-		// I Can use either of them , we can also typcast Map to HashMap Since it his
+		// we Can use either of them , we can also typcast Map to HashMap Since it his
 		// superInterface
 		// Since HashMap works of key and value pair, we can not use for loop Since it
 		// is order less and no as per index data is stored

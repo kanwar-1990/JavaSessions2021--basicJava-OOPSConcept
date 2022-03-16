@@ -7,7 +7,7 @@ public class LoopsProgram {
 	
 		  // even number // 2,4,6,8,10 // one of the easy method is that i=i+2 can we
 		  //done. 
-		  for (int i = 2; i <= 10; i = i + 2) { System.out.println(i); }
+		  for (int i = 2; i <= 10; i = i + 2){ System.out.println(i); }
 		  
 		  // odd number // 1,3,5,7,9 
 		  for (int odd = 1; odd <= 10; odd = odd + 2) {

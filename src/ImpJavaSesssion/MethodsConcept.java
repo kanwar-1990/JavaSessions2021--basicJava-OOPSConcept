@@ -12,7 +12,7 @@ public class MethodsConcept {
 	// no input some return
 
 	public int GetSum() {
-		System.out.println("Getting Sum:=========");
+		System.out.println("Getting Sum:=========\n hello");
 		int total = 100;
 		int count = 1000;
 		int Total_Count = total + count;
@@ -20,6 +20,11 @@ public class MethodsConcept {
 
 	}
 	// some input and some return
+
+	public String checking() {
+	return "Checking the method";
+	
+	}
 
 	public int EmpCount(int a, int b)
 

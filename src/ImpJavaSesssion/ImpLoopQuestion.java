@@ -4,25 +4,37 @@ public class ImpLoopQuestion {
 
 	public static void main(String[] args) {
 
+		/*
+		 * Question 1: Write a program to print the following pattern using for loop: 00
+		 * 01 02 03 04 05 06 07 08 09  10 11 12 13 14 15 16 17 18 19  20 21 22 23 24 25
+		 * 26 27 28 29  30 31 32 33 34 35 36 37 38 39 
+		 */
 
-		/*Question 1: Write a program to print the following pattern using for loop:
-00 01 02 03 04 05 06 07 08 09 
-10 11 12 13 14 15 16 17 18 19 
-20 21 22 23 24 25 26 27 28 29 
-30 31 32 33 34 35 36 37 38 39 
-		*/
-		
+		for (int i = 0; i <= 9; i++) {
+			for (int j = 0; j <= 9; j++) {
+				System.out.print(i + "" + j + " ");// 00 11
+			}
+			System.out.println();
 
-	for(int i=0;i<=9;i++) {
-		for(int j=0;j<=9;j++) {
-			System.out.print(i+""+j+" ");//00 11
 		}
-	System.out.println();
-	
-	}
-	
-	
-	
+
+		String value = "Welcome123";
+
+		String character = "", number = "";
+		for (int i = 0; i < value.length(); i++) {
+			value.charAt(i);
+
+			if (Character.isAlphabetic(value.charAt(i))) {
+				character = character + value.charAt(i);
+			} else {
+				number += value.charAt(i);
+			}
+
+		}
+
+		System.out.println("Character is :" + character);
+		System.out.println("Character is :" + number);
+
 	}
 
 }

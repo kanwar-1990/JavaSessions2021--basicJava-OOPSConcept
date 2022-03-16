@@ -1,4 +1,4 @@
-package ImpJavaSesssion;
+package Collection;
 
 import java.util.ArrayList;
 
@@ -65,6 +65,14 @@ public class ArrayConceptTest {
 				System.out.println("Potter is Found......");
 
 			}
+		}
+		// Another way to write in Arrays
+
+		String[] programnames = { "Java", "c#", "pyhton", "javascript" };
+
+		for (String e : programnames) {
+
+			System.out.println(e);
 		}
 
 	}

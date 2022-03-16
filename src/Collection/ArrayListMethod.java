@@ -1,4 +1,4 @@
-package ImpJavaSesssion;
+package Collection;
 
 import java.util.ArrayList;
 import java.util.Collections;

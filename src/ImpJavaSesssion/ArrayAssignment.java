@@ -2,7 +2,7 @@ package ImpJavaSesssion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
+import java.util.List;
 
 public class ArrayAssignment {
 
@@ -12,7 +12,7 @@ public class ArrayAssignment {
 		// and print out the collection
 
 		ArrayList<String> Colour = new ArrayList<String>();
-		int a[] = new int[] { 2, 3, 4, 6, 7 };
+		int a[] ={ 2, 3, 4, 6, 7 };
 		for (int i : a) {
 			System.out.println(i);
 		}
@@ -33,7 +33,7 @@ public class ArrayAssignment {
 		// 3. Write a Java program to retrieve an element (at a specified index) from a
 		// given array list.
 
-		ArrayList<Object> FiLa =new ArrayList<>();
+		ArrayList<Object> FiLa = new ArrayList<>();
 
 		FiLa.add("Hello");
 		FiLa.add("Hi");
@@ -48,11 +48,13 @@ public class ArrayAssignment {
 
 		// 4. Write a Java program to update specific array element by given element
 
-		ArrayList<String> Tutor = new ArrayList<String>();
+		// ArrayList<String> Tutor = new ArrayList<String>();
 
-		Tutor.add("Mukesh");
-		Tutor.add("Ramesh");
-		Tutor.add("Pranesh");
+		List<String> Tutor = Arrays.asList("Mukesh", "Ramesh", "Pranesh");
+
+		/*
+		 * Tutor.add("Mukesh"); Tutor.add("Ramesh"); Tutor.add("Pranesh");
+		 */
 
 		Tutor.add(1, "Harpreet");
 
@@ -79,6 +81,7 @@ public class ArrayAssignment {
 		ArrayList<String> Gup = new ArrayList<String>();
 
 		Gup.add("jan");
+
 		Gup.add("feb");
 		Gup.add("march");
 		Gup.add("April");

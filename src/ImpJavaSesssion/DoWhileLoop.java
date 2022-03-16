@@ -1,5 +1,7 @@
 package ImpJavaSesssion;
 
+import org.omg.Messaging.SyncScopeHelper;
+
 public class DoWhileLoop {
 
 	public static void main(String[] args) {
@@ -25,10 +27,21 @@ public class DoWhileLoop {
 			System.out.println(marks[i]);
 		}
 
-		// for each loop----
+		// for each loop----enhanced for loop
 
 		for (int i : marks) {
 			System.out.println(i);
+		}
+
+		while (true) {
+			int i = 9;
+			if (i > 10) {
+				System.out.println("Pass");
+				break;
+			} else {
+				System.out.println("Fail");
+				break;
+			}
 		}
 
 	}

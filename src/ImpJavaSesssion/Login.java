@@ -1,8 +1,16 @@
- package ImpJavaSesssion;
+package ImpJavaSesssion;
 
- public class Login {
+public class Login {
 
-	String UserName; //class level variable declaration --global variables
+	// static variables will be added in String pool area which is part of heap
+	// class loader is responsible to load static member
+	// static member will only get added once in static pool area
+
+	static {
+		System.out.println("i will get loaded first");
+	}
+
+	static String UserName; // class level variable declaration --global variables
 	String password;
 	String title;
 	String url;
@@ -11,7 +19,7 @@
 
 		Login GoogleLogin = new Login();// object created in heap memory global variables provided
 
-		GoogleLogin.UserName = "admin";
+		Login.UserName = "admin";
 		GoogleLogin.password = "admin123";
 		GoogleLogin.title = "google";
 		GoogleLogin.url = "http://www.google.com";
@@ -30,7 +38,7 @@
 
 		new Login();/// Will be distoryed by garbage collector
 		System.gc(); // for garbage collection by Manaully-Jvm
-		
+
 	}
 
 }

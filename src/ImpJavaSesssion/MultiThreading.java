@@ -17,7 +17,7 @@ class PizzaHut extends Thread {
 
 	public void run() {
 		for (int i = 0; i < 5; i++) {
-			System.out.println("TodaysOffer-Independance Day offer is 15% off on any Pizza");
+			System.out.println("Todays Offer-Independance Day offer is 15% off on any Pizza");
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {

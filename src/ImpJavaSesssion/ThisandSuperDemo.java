@@ -17,6 +17,8 @@ class VariablesDemo extends demoworld {
 		System.out.println(d1.i);
 		d1.show(5);
 		demoworld.j = 15;
+
+	
 	}
 }
 
@@ -27,7 +29,9 @@ class demoworld {
 
 	public void show(int i)// local variable
 	{
-
+		
+            this.i=i;
+            
 		System.out.println("********print show************");
 		System.out.println(j);
 	}

@@ -28,6 +28,7 @@ public class Company {
 		obj.add("Singh");
 		obj.add("pal");
 		obj.add("chalotra");
+		System.out.println(obj);
 
 		return obj;
 

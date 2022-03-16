@@ -11,7 +11,7 @@ public class Employee {
 	public void finalize() {
 
 		System.out.println(
-				"Garbage Collector will call in Employee cLASS this finalize method before deleting the objects");
+				"Garbage Collector will call in Employee CLASS this finalize method before deleting the objects");
 	}
 
 	public static void main(String[] args) {

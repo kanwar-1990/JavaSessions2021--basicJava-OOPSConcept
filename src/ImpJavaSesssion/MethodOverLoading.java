@@ -7,7 +7,7 @@ public class MethodOverLoading {
 	public static void main(String[] args) {
 
 		/*
-		 * Method overloading- is also know as complie time--Polymorpsim, which means
+		 * Method overloading- is also know as complie time--Polymorphsim, which means
 		 * more than one types of polymorpishm is method overloading--method overriding
 		 * methodoverloading can only happen in the same class with different input and
 		 * different sequence and with the same name as method, is known as method

@@ -6,6 +6,9 @@ public class ExternalApp {
 	public static void main(String[] args) throws Exception {
 
 		Runtime r = Runtime.getRuntime();
+		r.exec("notepad.exe");
+		
+		
 
 		// r.exec("notepad.exe");
 

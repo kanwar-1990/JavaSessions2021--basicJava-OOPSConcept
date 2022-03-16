@@ -4,6 +4,10 @@ public class CodingBatStringPractice11 {
 
 	public static void main(String args[]) {
 
+		System.out.println(countYZ("fez day"));
+		System.out.println(countTriple("xxxabyyyycd"));
+	System.out.println(sumDigits("aa1bc2d3"));
+	
 	}
 
 	public static int[] middleWay(int[] a, int[] b) {
@@ -102,4 +106,62 @@ public class CodingBatStringPractice11 {
 
 		return new int[] { a[0], a[1], b[0], b[1] };
 	}
+
+	public static int countYZ(String str) {
+		/**
+		 * countYZ("fez day") → 2 countYZ("day fez") → 2 countYZ("day fyyyz") → 2
+		 * 
+		 */
+		int count = 0;
+		String str1 = str.toLowerCase();
+		String wordset[] = str1.split("[^a-z]");
+
+		for (String word : wordset) {
+			if (word.endsWith("z") || word.endsWith("y"))
+
+			{
+				count++;
+			}
+		}
+
+		return count;
+
+	}
+
+	public static int countTriple(String str) {
+		// countTriple("abcXXXabc") → 1
+		// countTriple("xxxabyyyycd") → 3
+
+		int len = str.length();
+		int count = 0;
+
+		for (int i = 0; i < len - 2; i++) {
+			char temp = str.charAt(i);
+
+			if (temp == str.charAt(i + 1) && temp == str.charAt(i + 2)) {
+
+				count++;
+
+			}
+
+		}
+		return count;
+	}
+
+	public static int sumDigits(String str) {
+
+		// sumDigits("aa1bc2d3") → 6
+		int sum = 0;
+
+		for (int i = 0; i < str.length(); i++) {
+
+			if(Character.isDigit(str.charAt(i))) {
+			String temp = str.substring(i, i + 1);
+			sum +=Integer.parseInt(temp);
+			}
+		}
+
+		return sum;
+	}
+
 }

@@ -16,7 +16,13 @@ public class Browser {
 	double currentVersion;
 	ArrayList<String> plugins;
 
+	public Browser() {
+		System.out.println("Call me first");
+	}
+
 	public Browser(String browserName, String vendorName, double currentVersion, ArrayList<String> plugins) {
+		// The main purpose of constructor is to initialise a non static variable.
+		this();// Calling another constructor from this one
 		this.browserName = browserName;
 		this.vendorName = vendorName;
 		this.currentVersion = currentVersion;
@@ -39,8 +45,11 @@ public class Browser {
 		System.out.println(b1.browserName + " " + b1.currentVersion + " " + b1.vendorName + " ");
 		Browser b2 = new Browser("Chrome", 90.0);
 
-		System.out.println(b2.browserName + " " + b2.currentVersion + " " + b2.vendorName + " " + b2.plugins);// Last 2 will give null
-																												
+		System.out.println(b2.browserName + " " + b2.currentVersion + " " + b2.vendorName + " " + b2.plugins);// Last 2
+																												// will
+																												// give
+																												// null
+
 		ArrayList<String> p = new ArrayList<String>();
 
 		p.add("selectorHub");

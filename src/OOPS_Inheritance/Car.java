@@ -6,6 +6,17 @@ public class Car extends Vehicles {
 	// provide permission
 	// ex==cloneable,serializable
 	// we can use instanceof keyword
+	
+	/**
+* Only Non static methods can be inherited, static methods cannot
+    be inherited because they will get loaded only once in SAP.
+  Constructors cannot be inherited because they are not a member 
+ of class,they are just used to initialise a Non static variable.
+  If we create Object of super class, we can access only super 
+ class methods.
+  If we create Object of sub class, we can access both super and 
+ sub class properties.
+ */
 
 	public int i = 10;
 
